@@ -5,9 +5,9 @@ import Myicon from '../imgs/myicon.png';
 
 const HomePage = () => {
   return (
-    <div className="container text-center mt-5">
+    <div className="container text-center ">
       <h1 className="mb-5">Tomoya Kawabata</h1>
-      <img src={Myicon} className="profileImage"/>
+      <img src={Myicon} className="profileImage mt-3 mb-3"/>
       <p className="porofile-text mt-5">
         大学時代からプログラミングに興味があり、独学で掲示板などを作ってました。<br />
         現職ではWebアプリ（管理画面）のデザイン、コーディングを主に担当しています。<br />
