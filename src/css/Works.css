@@ -7,7 +7,6 @@
     height: 100vh;
 }
 .content{
-    width: 200px;
     margin: 0 auto;
     cursor: pointer;
 }
@@ -41,7 +40,10 @@
         display: block;
     }
     .content{
-        margin-top: 35px;
+        padding-top: 60px;
+    }
+    .content:first-child{
+        padding-top: 200px;
     }
     .content-text{
         margin-top: 15px;
