@@ -1,0 +1,90 @@
+.form-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+h2{
+    text-align: center;
+    font-size: 25px !important;
+    
+}
+form{
+    width: 40%;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 5px;
+  
+}
+.form-content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+.item-top{
+    align-items: flex-start;
+}
+.form-content :first-child{
+    flex: 30%;
+}.form-content :last-child{
+    flex: 70%;
+}
+label{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+input{
+    border: 1px solid #7d7d7d;
+    border-radius: 2px;
+    width: 100%;
+    height: 35px;
+    outline: none;
+    padding: 5px;
+}
+textarea{
+    border:  1px solid #7d7d7d;
+    border-radius: 2px;
+    resize: none !important;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+.button-area{
+    text-align: center;
+}
+.button-area button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.button-area button:last-child:hover{
+    background-color: #fff;
+    color: #000;
+}
+.button-area button:last-child{
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+
+
+@media screen and (max-width:480px) {
+    form{
+        width: 90%;
+    }
+    .form-content{
+        display: block;
+    }
+    label{
+        margin-bottom: 3px;
+    }
+    
+}

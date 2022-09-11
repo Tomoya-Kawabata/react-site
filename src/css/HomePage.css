@@ -1,0 +1,64 @@
+
+
+.fa-html5:before {
+    color: #DD4B25;
+}
+.fa-css3-alt:before {
+    color: #3A97D1;
+}
+.fa-sass:before {
+    color: #C05D8D;
+}
+.fa-bootstrap:before {
+    color: #6A429D;
+}
+.fa-js:before {
+    color: #EFD81D;
+}
+
+.fa-react:before {
+    color: #16D3D2;
+}
+
+.fa-php:before {
+    color: #7377AD;
+}
+
+.fa-git-square:before, .fa-square-git:before {
+    color: #E84D31;
+}
+
+
+.fa-wordpress:before {
+    color: #207498;
+}
+
+.fa-server:before {
+    color: #1B5FA2;
+}
+
+.fa-database:before {
+    color: #EA8C10;
+}
+i{
+    width: 150px;
+    height: 150px;
+}
+#skills img{
+    width: 130px;
+    height: 130px;
+}
+.img-title{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.j-title{
+    margin-top: 40px;
+}
+.j-img{
+    width: 110px;
+    height: 110px;
+}
+.porofile-text{
+    font-size: 20px;
+}
