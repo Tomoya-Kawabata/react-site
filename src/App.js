@@ -13,9 +13,9 @@ function App() {
         <Header/>
 
         <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/works' element={<Works />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='react-site/' element={<HomePage />} />
+          <Route path='react-site/works' element={<Works />} />
+          <Route path='react-site/contact' element={<Contact />} />
         </Routes>
 
       </div>

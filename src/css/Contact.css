@@ -80,6 +80,10 @@ textarea{
     form{
         width: 90%;
     }
+    .form-wrapper{
+        height: 100%;
+        padding-top: 120px;
+    }
     .form-content{
         display: block;
     }
