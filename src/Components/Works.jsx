@@ -10,7 +10,7 @@ const Works = () => {
     window.location.href = "https://tomoya-kawabata.github.io/typing-game/";
   } ;
   const ToThreePage = () => {
-    window.location.href = "https://tomoya-kawabata.github.io/threePage/";
+    window.location.href = "https://tomoya-kawabata.github.io/three-js/";
   } ;
   const ToSearchPicturePage = () => {
     window.location.href = "https://tomoya-kawabata.github.io/photo-search/";
